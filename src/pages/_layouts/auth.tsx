@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom'
 
 export function AuthLayout() {
   return (
-    <div className="grid min-h-screen grid-cols-9 bg-rose-100">
+    <div className="mx-auto grid min-h-screen max-w-[1366px] grid-cols-9">
       <div className="col-span-5 flex h-full flex-col border-foreground/5 p-6 text-muted-foreground">
         <div className="">
           <img src="logo.svg" alt="Logo marketplace" />

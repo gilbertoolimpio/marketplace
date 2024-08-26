@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -59,7 +61,6 @@
   }
 }
 
-
 @layer base {
   * {
     @apply border-border;
@@ -70,6 +71,10 @@
 }
 
 body {
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
   .full-screen-card-container {
     height: calc(100vh - 48px); /* 24px margin on top + 24px margin on bottom */
   }
